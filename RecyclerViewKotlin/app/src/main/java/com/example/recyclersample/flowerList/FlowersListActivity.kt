@@ -87,7 +87,7 @@ class FlowersListActivity : AppCompatActivity() {
                 val flowerName = data.getStringExtra(FLOWER_NAME)
                 val flowerDescription = data.getStringExtra(FLOWER_DESCRIPTION)
 
-                flowersListViewModel.insertFlower(flowerName, flowerDescription)
+              //  flowersListViewModel.insertFlower(flowerName, flowerDescription,)
             }
         }
     }
